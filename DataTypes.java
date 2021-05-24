@@ -2,6 +2,7 @@ class DataTypes {
 
   // 1. Primitive Data types :
 
+  //changes happend
   // a) Numeric
   // i. Integral
   //Integer:
