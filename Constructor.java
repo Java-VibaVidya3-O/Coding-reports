@@ -1,6 +1,6 @@
 
 public class Constructor {
-    int height; //created
+    int height; //create
 
     public Constructor() {
         height = 10; //initialize
