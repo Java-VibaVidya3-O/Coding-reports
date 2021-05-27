@@ -1,7 +1,9 @@
 
 
+//runtime polymorphism
+
 class Dog {
-    void eat() { 
+    void eat1() { 
         System.out.println("Dog is eating...");
     }
 }
@@ -10,7 +12,8 @@ class Cat extends Dog {
 
     void eat() { 
         System.out.println("Cat is eating...");
-    } //overriden
+    } 
+    //overriden
 }
 
 public class Override extends Cat {

@@ -7,6 +7,8 @@
     }
 }
 
+//compile-time polymorphism
+
 public class Overload {
     public static void main(String[] args) {
         int length = 5;

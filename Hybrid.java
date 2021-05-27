@@ -1,17 +1,21 @@
 
 interface Base1 {
-    void baseFunc();
+    void baseFunc(); //declare functions / abstract method
 }
 
-interface Subclass {
+interface Superclass {
     void subclassFunc();
+
+    // void func(){
+
+    // } //definition
 }
 
-class Child1 implements Base1, Subclass {
+class Child1 implements Base1, Superclass {
 
     public void baseFunc() {
         System.out.println("Base1 class");
-    }
+    } //function body/implementation
 
     public void subclassFunc() {
         System.out.println("Base2 class");

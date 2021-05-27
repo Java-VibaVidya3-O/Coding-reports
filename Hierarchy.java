@@ -1,6 +1,6 @@
 
 
- class Parent {
+ class Parent1 {
      int length = 10;
 
      void parentFunc() {
@@ -8,7 +8,7 @@
     } 
  }
 
- class Child extends Parent {
+ class Child extends Parent1 {
     int width = 5;
 
      void childFunc() {
@@ -16,7 +16,7 @@
     } 
  }
 
-public class Hierarchy extends Parent {
+public class Hierarchy extends Parent1 {
 
     public static void main(String[] args) {
         Hierarchy h = new Hierarchy();
