@@ -4,7 +4,7 @@ abstract class Abstraction {
 
     void implementFunc() {
         System.out.println("Supports abstract methods as well as implemented"); //method definition
-    }
+    } //non-abstract
 }
 
 public class Abstract extends Abstraction {
@@ -17,5 +17,4 @@ public class Abstract extends Abstraction {
         t.func();
         t.implementFunc();
     }
-    
 }

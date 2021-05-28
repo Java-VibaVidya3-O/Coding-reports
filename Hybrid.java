@@ -11,7 +11,7 @@ interface Superclass {
     // } //definition
 }
 
-class Child1 implements Base1, Superclass {
+abstract class Child1 implements Base1, Superclass {
 
     public void baseFunc() {
         System.out.println("Base1 class");
