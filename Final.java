@@ -1,12 +1,12 @@
 
 
-class Test {
+final class Test {
     final void func() {
         System.out.println("World!");
     }
-}
+} //can't inherit final class
 
-public class Final extends Test {
+public class Final {
 
     final static double PI = 3.14159;
     final static double TIME_OUT = 3.0;
@@ -29,5 +29,5 @@ public class Final extends Test {
 
     // void func() {
     //     System.out.println("Hello");
-    // } //error - can't override a final method
+    // } //error - can't override a final method if inherited
 }
