@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+
+// Problem :
+// 1. If divisible by 3, print "Hello "
+// 2. If divisible by 5, print "World!"
+// 3. If divisible by both, print "Hello World!"
+    
+    
 public class Problem {
     public static void main(String[] args) {
         int n;
