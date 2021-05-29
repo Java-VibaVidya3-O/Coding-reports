@@ -1,8 +1,10 @@
 
 class TestEncaps {
     private String name;
-    private int rollNo;
+    private int rollNo;   //encapsulated data
 
+    //getters and setters
+    
     public String getName() {
         return this.name;
     }
@@ -26,7 +28,9 @@ public class Encaps {
 
         e.setName("Sreeja");
         e.setRollNo(20);
-
+        
+        //e.name    //can't get private variable
+        
         System.out.println(e.getName());
         System.out.println(e.getRollNo());
     }
