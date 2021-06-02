@@ -19,7 +19,7 @@ public class ExceptionHandling {
         catch(NullPointerException e) {
             System.out.println(e);
         }
-        catch(Exception e) {                //Super class exception
+        catch(Exception e) {                //Super class Exception class
             System.out.println(e);
         }
         finally {
