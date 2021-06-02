@@ -25,5 +25,6 @@ public class ListArray {
         list.clear();
         System.out.println("After clearing list: " +"\n"+ list);
 
+        
     }
 }

@@ -18,7 +18,10 @@ public class Code {
 
         arr[arr.length-1] = result;
 
-        System.out.println(Arrays.toString(arr));
+        for (int i: arr) {
+            System.out.println(i);
+        }
+        //System.out.println(Arrays.toString(arr));
         sc.close();
     }
 }
